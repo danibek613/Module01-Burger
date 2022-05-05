@@ -145,7 +145,8 @@ header{
     background-size: cover;
     background-position: center center;
     text-align: left;
-    padding: 100px
+    padding: 100px 100px 120px;
+    margin-bottom: 100px;
 }
 .banner-title span{
     font-size: 14px;
@@ -167,7 +168,6 @@ header{
     font-size: 60px;
     margin-top: 0px;
     margin-bottom: 12px;
-    
 }
 .banner-text{
     color:#FAF9F9;
@@ -177,7 +177,6 @@ header{
     line-height:1.6;
     margin-top: 0px;
     margin-bottom:35px;
-
 }
 .banner-link{
     color:#1E2F40;
@@ -188,4 +187,30 @@ header{
     border-radius: 5px;
     padding: 20px 27px;
     text-transform: uppercase;
+}
+.menu-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-title{
+    font-family: Nunito Sans;
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#1B2A49;
+    margin: 0;
+}
+.menu-select{
+    border: 1px solid #DEDEDE;
+    padding: 13px 30px;
+    border-radius: 22px;
+    color: #443737;
+    font-size: 15px;
+    appearance: none;
+    flex-basis: 279px;
+    background-image: url(../img/chevron-down.svg);
+    background-size: 12.79px 7.75px;
+    background-repeat: no-repeat;
+    background-position: 89% center;
 }
