@@ -234,3 +234,36 @@ header{
     width: 100%;
     height: 430px;
 }
+.menu-grid-title{
+    color:#1B2A49;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.menu-grid-price{
+    color:#979797;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.menu-grid-btn{
+    display: block;
+    background-color:#FBB731;
+    border-radius: 5px;
+    background-image: url(../img/cart-menu.svg);
+    background-repeat: no-repeat;
+    background-size: 18px 13px;
+    background-position: 15% center;
+    margin-left: 114px;
+    border-style: hidden;
+}
+.menu-grid-icon{
+    
+}
+.menu-grid-text{
+    color: #1E2F40;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 30px 10px 30px;
+}
