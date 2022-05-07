@@ -289,7 +289,7 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.logo{
+.footer-logo{
     height: 56px;
     width: 63px;
 }
@@ -302,10 +302,6 @@ header{
     text-transform: uppercase;
     margin-bottom: 19px;
     margin-top: 0%;
-}
-.footer-item ul,
-.footer-tel ul{
-    list-style-type: none;
 }
 .footer-item li{
     margin-bottom: 9px;
@@ -337,4 +333,5 @@ header{
 }
 .footer-list{
     padding: 0;
+    list-style: none;
 }
