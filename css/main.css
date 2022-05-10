@@ -204,6 +204,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 39px;
 }
 .menu-title{
     font-family: Nunito Sans;
@@ -231,7 +232,7 @@ header{
     grid-template-columns: repeat(3,1fr);
     gap: 50px 20px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 98px;
 }
 .menu-grid-cover{
     width: 100%;
@@ -273,6 +274,8 @@ header{
     justify-content: center;
     margin: 0 auto;
     gap: 9px;
+    height: 40px;
+    width: 152px;
 }
 .menu-grid-btn:hover{
     background-color: #F37335;
@@ -291,15 +294,13 @@ header{
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 10px 30px 10px 30px;
 }
 .footer{
     font-family: 'Open Sans', sans-serif;
     background: #1E2F40;
     color: #FFFFFF;
-    padding-top: 117px;
-    padding-bottom: 106px;
-    margin-top: 120px;
+    padding-top: 79px;
+    padding-bottom: 48px;
 }
 .footer-box{
     display: flex;
