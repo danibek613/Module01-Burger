@@ -406,11 +406,20 @@ header{
     background-color:#FBB731;
     border-radius: 5px;
     text-decoration: none;
-    padding: 20px 45px;
+    padding: 18px 43px;
     display: inline-block;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
+    border: 1px solid #FBB731 ;
+}
+.content-link:hover{
+    background: transparent;
+    color: #FBB731;
+}
+.promo a:hover{
+    background: transparent;
+    color: #FBB731;
 }
 .visual{
     flex-grow: 1;
