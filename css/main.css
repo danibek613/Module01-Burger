@@ -564,7 +564,7 @@ header{
     right: 20px;
     cursor: pointer;
 }
-/*Responsive adoptive @media*/
+/*Responsive menu adoptive @media*/
 
 @media (min-width:1001px){
     .footer-list + .footer-list-tel{
