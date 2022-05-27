@@ -459,6 +459,7 @@ header{
     width: 829px;
     position: absolute;
     right: -168px;
+    top: 108px;
 }
 .promo{
     padding-top: 186px;
@@ -563,7 +564,7 @@ header{
     right: 20px;
     cursor: pointer;
 }
-/*Responsive menu adoptive @media*/
+/*Responsive Menu adoptive @media*/
 
 @media (min-width:1001px){
     .footer-list + .footer-list-tel{
@@ -750,4 +751,45 @@ header{
         background-position: 25% center;
     }
 }
-/*--------------------------------------------------------------------------------------------------------------------------*/
+/*Responsive Index adoptive @media*/
+@media (max-width:567px){
+    .wrapper {
+       display: block;
+    }
+    .content {
+        padding: 42px 15px 160px 15px;
+    }
+    .content-title{
+        font-size: 58px;
+    }
+    .content-title span {
+        font-size: 14px;
+    }
+    .content-title p{
+        margin-right: 22px;
+        line-height: 69px;
+
+    }
+    .visual-bg {
+        display: none;
+    }
+    .main img {
+        width: 298px;
+        height: 298px;
+        right: 0px;
+        top: -216px;
+    }
+    .content-text{
+      
+    }
+    .promo {
+        padding-top: 95px;
+    }
+    .promo .wrapper{
+        display: block;
+    }
+    .promo-left {
+        margin-bottom: 25px;
+    }
+}
+
